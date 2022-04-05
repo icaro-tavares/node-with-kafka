@@ -1,0 +1,19 @@
+{
+  "name": "core-consumer",
+  "version": "1.0.0",
+  "description": "Example kafka consumer",
+  "main": "app.ts",
+  "author": "Icaro Lima",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon app.ts"
+  },
+  "dependencies": {
+    "kafkajs": "^1.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  }
+}
